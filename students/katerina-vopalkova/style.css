@@ -1,0 +1,68 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+
+/* layout */
+.header {
+    background: rgb(236, 73, 73);
+    padding: 0.5em;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.content {
+   margin: 120px 30% 100px 30%;
+    
+}
+
+footer {
+    background: gray;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+
+}
+
+/* styles */
+footer p {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(36, 30, 30);
+}
+
+.profile {
+    border-radius: 50%;
+    border: black solid 3px;
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+.p-center {
+    text-align: center;
+}
